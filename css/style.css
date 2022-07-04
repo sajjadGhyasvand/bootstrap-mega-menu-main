@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+  
+    src: url("../fonts/Vazir.eot#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("turetype");
+  }
+  
+  
+  body {
+    font-family: "Vazir" !important;
+  }
+
 .bg-custom-dark {
     
     background-color: #242222 !important
@@ -16,14 +31,75 @@ body{
 }
 .ul-color ul li a:hover
 {
-    /* color: #b3b3b3 ; */
-    color: red;
+     color: #b3b3b3 ; 
+    
+}
+.all div, .all p{
+    display: none;
 }
 
+.show {
+    display: block;
+  }
+
+.item-box.hide{
+display: none;
+}
 .bg-gray{
     background-color: #595858;
 }
-
+.text-gray{
+    color: #b3b3b3 ; 
+}
 .custom-border{
     border-left: 2px solid #fff ;
 }
+
+.content-1{
+    display: none;
+}
+
+.content-2{
+    display: none; 
+}
+
+.content-3{
+    display: none; 
+}
+
+.title:hover{
+    cursor: pointer;
+    background-color: #6E6C6C;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+
+}
+.title{
+    transition: background-color 800ms,padding-right 600ms,padding-left 600ms;
+}
+
+.arrow-custom{
+	top: 50%;
+	width: 1.5vmin;
+	height: 1.5vmin;
+	background: transparent;
+	border-top: 0.7vmin solid white;
+	border-right: 0.7vmin solid white;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
+    left: 0;
+	transform: translate3d(0,-50%,0) rotate(-135deg);
+}
+.nav-item:hover .dropdown-toggle:before {
+    border-top: 0 !important;
+    border-bottom: .3em solid !important;
+}
+.dropdown-toggle:before {
+    transition:  border-top 500ms,border-bottom 500ms;
+    }
+/* .title-1:hover .content-1{
+    opacity: 0;
+}
+.title-2:hover .content-2{
+    display: none;
+} */

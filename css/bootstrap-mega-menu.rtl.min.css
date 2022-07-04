@@ -3859,7 +3859,7 @@ fieldset:disabled .btn {
     white-space: nowrap
 }
 
-.dropdown-toggle:after {
+.dropdown-toggle:before {
     display: inline-block;
     margin-right: .255em;
     vertical-align: .255em;
@@ -3879,7 +3879,6 @@ fieldset:disabled .btn {
     z-index: 1000;
     display: none;
     right: 0;
-   s
     min-width: 10rem;
     padding: .5rem 0;
     text-align: right;
