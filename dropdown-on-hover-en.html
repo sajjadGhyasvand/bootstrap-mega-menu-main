@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-mega-menu.min.css" />
+
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+  <style>
+    .dropdown-hover:hover>.dropdown-menu {
+      display: inline-block;
+    }
+
+    .dropdown-hover>.dropdown-toggle:active {
+      /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+    }
+  </style>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExampleOnHover" aria-controls="navbarExampleOnHover" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarExampleOnHover">
+        <div class="col-md-10">
+          <ul class="navbar-nav me-auto ps-lg-0 " style="padding-left: 0.15rem">
+
+
+
+
+
+
+            <!-- about us -->
+            <li class="nav-item dropdown dropdown-hover position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                about us
+              </a>
+              <!-- Dropdown menu -->
+              <div class="dropdown-menu  w-75 mt-0 bg-custom-dark-opacity" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+              border-top-right-radius: 0; left:0;
+            ">
+
+                <div class="container-fluid px-5 text-white">
+                  <div class="row my-4 d-flex justify-content-end  flex-row-reverse">
+                    <div class="col-md-6 col-lg-3 ">
+                      <div class="pt-2">
+
+                        <div class="bg-image hover-overlay shadow-1-strong rounded ripple mb-4"
+                          data-mdb-ripple-color="light">
+                          <img src="./img/aboutPic-1.png" class="img-fluid" />
+                          <a href="#!">
+                            <div class="mask" style="
+                        background-color: rgba(
+                          251,
+                          251,
+                          251,
+                          0.15
+                        );
+                      ">
+
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <p> Established 2006</p>
+                    </div>
+
+
+                    <!-- <div class="col-md-6 col-lg-3 position-absolute  end-0">
+              <img class="img-fluid" src="./img/aboutPic-1.png" alt="">
+            </div> -->
+                    <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                      <div class="ul-color ist-group list-group-flush">
+                        <p class="h5 mb-3 ">
+                          <strong>exhibitions</strong>
+                        </p>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Newspaper</a></li>
+                          <li><a href="#">events</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="ul-color list-group list-group-flush">
+                        <p class="h5 mb-3">
+                          <strong>why choose Partova?</strong>
+                        </p>
+                        <ul class="list-unstyled">
+                          <li><a class="h6" href="#">About us </a></li>
+                          <li><a class="h6" href="#">The evolution of Partova </a></li>
+                          <li><a class="h6" href="#">More than decade of experience </a></li>
+                          <li><a class="h6" href="#">History </a></li>
+                          <li><a class="h6" href="#"> Code of Ethics</a></li>
+                          <li><a class="h6" href="#">Policy </a></li>
+                          <li><a class="h6" href="#">Chart</a></li>
+                          <li><a class="h6" href="#">Certificates</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- حوزه فعالیت -->
+            <li class="nav-item dropdown dropdown-hover position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Areas of Activity
+              </a>
+              <!-- Dropdown menu -->
+
+              <div class="dropdown-menu  w-100 mt-0 bg-custom-dark-opacity " aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+              border-top-right-radius: 0; left:0;
+            ">
+
+                <div class="container-fluid px-5 mb-5 ">
+                  <div class="row pt-3 ">
+                    <div class="col-md-12  d-flex d-inline justify-content-between flex-row-reverse px-0">
+                      <div class="col-md-3 col-lg-3 ml-3 ">
+                        <div class="bg-image  rounded ripple mb-4" data-mdb-ripple-color="light">
+                          <img src="./img/aboutPic-1.png" class="img-fluid h-75 w-75" />
+
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-lg-3 ">
+                        <div class="bg-image  rounded ripple mb-4" data-mdb-ripple-color="light">
+                          <img src="./img/aboutPic-1.png" class="img-fluid h-75 w-75" />
+
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-lg-3 ">
+                        <div class="rounded mb-4" data-mdb-ripple-color="light">
+                          <img src="./img/aboutPic-1.png" class="img-fluid h-75 w-75" />
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-lg-3 ">
+                        <div class="bg-image  rounded ripple mb-4" data-mdb-ripple-color="light">
+                          <img src="./img/aboutPic-1.png" class="img-fluid h-75 w-75" />
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="col-md-12  d-flex d-inline justify-content-between flex-row-reverse px-0 text-white">
+                      <div class="col-md-6 col-lg-3">
+                        <div class="ul-color list-group list-group-flush">
+                          <p class="h5 mb-3">
+                            <strong>Sky Light</strong>
+                          </p>
+                          <ul class="list-unstyled">
+                            <li><a class="h6" href="#">Retracable Roof</a></li>
+                            <ul class="list-unstyled">
+                              <li>
+                                <ul class="header1 list-unstyled" id="header1">
+                                  <li class="upstairs">
+                                    <a class="h6  dropdown-toggle-check en-dropdown-change" href="#">  Canopy </a>
+                                    <ul class="list-unstyled pr-3 " Id="drager1" style="padding-right: 2rem;">
+                                       <li>Door and Window</li>
+                                       <li>Car Canopy</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+
+                              </li>
+                            </ul>
+                            <li><a class="h6" href="#">Sky Light </a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-3">
+                        <div class="ul-color list-group list-group-flush">
+                          <p class="h5 mb-3">
+                            <strong>Stairs</strong>
+                          </p>
+
+                          <ul class="list-unstyled">
+                            <ul class="list-unstyled">
+                              <li>
+                                <ul class="header1 list-unstyled" id="header1">
+                                  <li class="upstairs">
+                                    <a class="h6  dropdown-toggle-check en-dropdown-change" href="#">Structrul Stairs</a>
+                                    <ul class="list-unstyled pr-3 " Id="drager1" style="padding-right: 2rem;">
+                                      <li>Exclusive</li>
+                                      <li>Single</li>
+                                      <li>two</li>
+                                      <li>Cut Around The Central Axis</li>
+                                      <li>Wall Console</li>
+                                      <li>Sub</li>
+                                      <li>Around The Spiral Pipe</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+
+                              </li>
+                            </ul>
+                            <ul class="list-unstyled">
+                              <li>
+                                <ul class="header1 list-unstyled" id="header1">
+                                  <li class="upstairs">
+                                    <a class="h6  dropdown-toggle-check en-dropdown-change" href="#">Perfabricated
+                                      Stairs</a>
+                                    <ul class="list-unstyled pr-3 " Id="drager1" style="padding-right: 2rem;">
+                                      <li>Evan</li>
+                                      <li>Capsule</li>
+                                      <li>Spider</li>
+                                      <li>Around An Axis</li>
+                                      <li>Exclusice</li>
+                                      <li>Vers</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+
+                              </li>
+                            </ul>
+                            <ul class="list-unstyled">
+                              <li>
+                                <ul class="header1 list-unstyled" id="header1">
+                                  <li class="upstairs">
+                                    <a class="h6  dropdown-toggle-check en-dropdown-change" href="#"> Industrial Stairs </a>
+                                    <ul class="list-unstyled pr-3 " Id="drager1" style="padding-right: 2rem;">
+                                        <li>Stair Access / Fence Platform</li>
+                                        <li>Stairs And Access fences</li>
+                                        <li>Stair / Fence Maintenance Platform</li>
+                                        <li>Easy Stairs And Railings</li>
+                                        <li>Loading Platform / Railing Stairs</li>
+                                        <li>Stairs And Sliding railings</li>
+                                        <li>Stair Platform / Fence</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+
+                              </li>
+                            </ul>
+                            <li><a class="h6" href="#">Ovan Stairs</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-3">
+                        <div class="ul-color list-group list-group-flush">
+                          <p class="h5 mb-3">
+                            <strong>Shelter</strong>
+                          </p>
+                          <ul class="list-unstyled">
+                            <li><a class="h6" href="#">Fix Point </a></li>
+                            <li><a class="h6" href="#">Metal Foundation </a></li>
+                            <li><a class="h6" href="#">Expose</a></li>
+                            <li><a class="h6" href="#">Spigot</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-3">
+                        <div class="ul-color list-group list-group-flush">
+                          <p class="h5 mb-3">
+                            <strong>Facades</strong>
+                          </p>
+                          <ul class="list-unstyled">
+                            <li><a class="h6" href="#">Fin Glass</a></li>
+                            <li><a class="h6" href="#">Steel Supporting Structure</a></li>
+                            <li><a class="h6" href="#">Tension Structure</a></li>
+                            <li><a class="h6" href="#">Cable Net</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!--خدمات فنی مهندسی-->
+            <li class="nav-item dropdown dropdown-hover position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Engineering Services
+              </a>
+              <!-- Dropdown menu -->
+              <div class="dropdown-menu  w-75 mt-0 bg-custom-dark-opacity " aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+              border-top-right-radius: 0; left:0; ">
+
+                <div class="container-fluid  text-white">
+                  <div class="row d-flex justify-content-end flex-row-reverse">
+                    <div class="col-md-8   ">
+                      <div class="col-md-12 d-flex justify-content-end">
+                        <div class="col-md-6 mt-4 content-1">
+                          <div class="bg-image rounded ripple mb-4" data-mdb-ripple-color="light">
+                            <img src="./img/aboutPic-1.png" class="img-fluid h-75 w-75" />
+                            <a href="#!">
+                              <div class="mask">
+
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-md-6 pt-3 pr-4 content-1">
+                          <div class="ul-color list-group list-group-flush start-0">
+                            <p class="h5 mb-3">
+                              <strong>Give us your ideas and designs</strong>
+
+                            </p>
+                            <ul class="list-unstyled">
+                              <li><a class="h6" href="#">Partova Activities</a></li>
+                              <li><a class="h6" href="#">Our Engineering Services</a></li>
+                              <li><a class="h6" href="#">Research and Development</a></li>
+                              <li><a class="h6" href="#">Custom Projects</a></li>
+                              <li><a class="h6" href="#">Order</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 d-flex justify-content-end">
+                        <div class="col-md-6 mt-4 content-2">
+                          <div class="bg-image rounded ripple mb-4" data-mdb-ripple-color="light">
+                            <img src="./img/aboutPic-1.png" class="img-fluid h-75 w-75" />
+                            <a href="#!">
+                              <div class="mask">
+
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-md-6 pt-3 pr-4 content-2">
+                          <div class="ul-color list-group list-group-flush start-0">
+                            <p class="h5 mb-3">
+
+                              <strong>Leave your parts and products to us to build</strong>
+
+                            </p>
+                            <ul class="list-unstyled">
+                              <li><a class="h6" href="#">Partova Activities</a></li>
+                              <li><a class="h6" href="#">Our Industrial Services</a></li>
+                              <li><a class="h6" href="#">Code of Ethics </a></li>
+                              <li><a class="h6" href="#">Custom Projects</a></li>
+                              <li><a class="h6" href="#">Order</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 p-0 custom-border">
+                      <div class="col-md-12 bg-gray p-3 title title-1 d-flex  flex-row-reverse align-items-center"
+                        id="title-1">
+                        <div class="col-md-2">
+                          <img class="text-white" src="./img/navigate_next_FILL0_wght400_GRAD0_opsz48.png"
+                            style="height:30px" alt="">
+                        </div>
+                        <div class="col-md-10">
+                          <a class="text-white" href="#">Engineering Services</a>
+                        </div>
+                      </div>
+                      <div class="col-md-12 bg-gray p-3 title title-2 d-flex  flex-row-reverse align-items-center"
+                        id="title-2">
+                        <div class="col-md-2">
+                          <img class="text-white" src="./img/navigate_next_FILL0_wght400_GRAD0_opsz48.png"
+                            style="height:30px" alt="">
+                        </div>
+                        <div class="col-md-10">
+                          <a class="text-white" href="#">Custom Manufacturing Services</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- پروژه -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects </a>
+            </li>
+            <!-- کاتالوگ‌ها -->
+            <li class="nav-item dropdown dropdown-hover position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Catalogs
+              </a>
+              <!-- Dropdown menu -->
+              <div class="dropdown-menu  w-75 mt-0 bg-custom-dark-opacity  " aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+              border-top-right-radius: 0; left:0;
+            ">
+
+                <div class="container-fluid  text-white ">
+                  <div class="row d-flex flex-row-reverse justify-content-end">
+                    <div class="col-md-8   ">
+                      <div class="col-md-12 d-flex flex-row-reverse  justify-content-end">
+                        <div class="col-md-9 mt-4 content-3 d-flex flex-row-reverse justify-content-between ">
+                          <div class="col-md-3 content-3 item-box Jaan  all">
+                            <div class="bg-image rounded ripple mb-4 " data-mdb-ripple-color="light">
+                              <img src="./img/Menu_06657baa-c3fa-4e6e-9133-f751c3ee2bac_SP-17530-full.png"
+                                class="img-thumbnail h-75 w-75" />
+                              <a href="#!">
+                                <div class="mask">
+
+                                </div>
+                              </a>
+                            </div>
+                            <p class="mb-3 "> <strong>Facades</strong></p>
+                            <p class="m-0 p-0 text-gray ">Dedicatde Catalog</p>
+                            <p class="m-0 p-0 text-gray mb-4 ">Technical of Facades</p>
+                          </div>
+                          <div class="col-md-3 content-3 item-box Noor all">
+                            <div class="bg-image rounded ripple mb-4" data-mdb-ripple-color="light">
+                              <img src="./img/Menu_06657baa-c3fa-4e6e-9133-f751c3ee2bac_SP-17530-full.png"
+                                class="img-fluid h-75 w-75" />
+                              <a href="#!">
+                                <div class="mask">
+
+                                </div>
+                              </a>
+                            </div>
+                            <p class="mb-3"> <strong>Ceiling Skylights</strong></p>
+                            <p class="m-0 p-0 text-gray">Dedicatde Catalog</p>
+                            <p class="m-0 p-0 text-gray mb-4">Technical Skylights </p>
+                          </div>
+                          <div class="col-md-3 content-3 item-box Pele all">
+                            <div class="bg-image rounded ripple mb-4" data-mdb-ripple-color="light">
+                              <img src="./img/Menu_06657baa-c3fa-4e6e-9133-f751c3ee2bac_SP-17530-full.png"
+                                class="img-fluid h-75 w-75" />
+                              <a href="#!">
+                                <div class="mask">
+
+                                </div>
+                              </a>
+                            </div>
+                            <p class="mb-3"> <strong>Ceiling SkyLights</strong></p>
+                            <p class="m-0 p-0 text-gray">Dedicatde Technical</p>
+                            <p class="m-0 p-0 text-gray mb-4">Technical Skylights</p>
+                          </div>
+                          <div class="col-md-3 content-3 item-box Namaa all">
+                            <div class="bg-image rounded ripple mb-4 Jaan" data-mdb-ripple-color="light">
+                              <img src="./img/Menu_06657baa-c3fa-4e6e-9133-f751c3ee2bac_SP-17530-full.png"
+                                class="img-fluid h-75 w-75" />
+                              <a href="#!">
+                                <div class="mask">
+
+                                </div>
+                              </a>
+                            </div>
+                            <p class="mb-3 Jaan"> <strong>Torches</strong></p>
+                            <p class="m-0 p-0 text-gray Jaan">Dedicatde Technical</p>
+                            <p class="m-0 p-0 text-gray mb-4 Jaan">Catalog Of Towers </p>
+                          </div>
+                        </div>
+                        <div class="col-md-3 pt-3 pr-4 content-3">
+                          <div class="ul-color list-group list-group-flush start-0">
+                            <ul class="list-unstyled ">
+                              <li><a id="list-all" class="h6" href="#">All Catalogs</a></li>
+                              <li><a id="list-Namaa" class="h6 list-Namaa" href="#">Facades </a></li>
+                              <li><a id="list-Pele" class="h6  list-Pele" href="#">Stairs </a></li>
+                              <li><a id="list-Noor" class="h6  list-Noor" href="#"> Ceiling Skylights</a></li>
+                              <li><a id="list-Jaan" class="h6  list-Jaan" href="#"> Torches</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="col-md-4 p-0 custom-border">
+
+                      <div class="col-md-12 bg-gray p-3 title title-1  d-flex flex-row-reverse align-items-center"
+                        id="title-3">
+                        <div class="col-md-2">
+                          <img class="text-white" src="./img/navigate_next_FILL0_wght400_GRAD0_opsz48.png"
+                            style="height:30px" alt="">
+                        </div>
+                        <div class="col-md-10">
+                          <a class="text-white" href="#"> request Specialized Catalogs</a>
+                        </div>
+                      </div>
+                      <div class="col-md-12 bg-gray p-3 title title-2 d-flex flex-row-reverse align-items-center"
+                        id="title-4">
+                        <div class="col-md-2">
+                          <img class="text-white" src="./img/navigate_next_FILL0_wght400_GRAD0_opsz48.png"
+                            style="height:30px" alt="">
+                        </div>
+                        <div class="col-md-10">
+                          <a class="text-white" href="#">General Catalogs</a>
+                        </div>
+                      </div>
+                      <div class="col-md-12 bg-gray p-3 title title-2  d-flex flex-row-reverse align-items-center"
+                        id="title-5">
+                        <div class="col-md-2">
+                          <img class="text-white" src="./img/navigate_next_FILL0_wght400_GRAD0_opsz48.png"
+                            style="height:30px" alt="">
+                        </div>
+                        <div class="col-md-10">
+                          <a class="text-white" href="#">Assembly Instructions</a>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- تماس با ما  -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us </a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <img class="img-fluid pl-3" style="height: 34px;" src="./img/Logo_White (1).png" alt="">
+
+        </div>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- End your project here-->
+
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+
+
+
+
+
+  <script type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+  <script>
+
+    $(document).ready(function () {
+      $("#list-all").hover(function () {
+        let all = $(".all p , .all div");
+        $(all).fadeIn(500);
+      });
+
+      $('.header1 ul').hide();
+
+      $('.upstairs').click(function () {
+        $(this).find('ul').slideToggle();
+        $(this).find('.dropdown-toggle-check').toggleClass("en-dropdown-change").toggleClass("dropdown-toggle");
+      });
+
+      $("#list-Namaa").hover(function () {
+        let Namaa = $(".Namaa p,.Namaa div");
+        let all = $(".all p , .all div");
+        $(all).hide(0);
+        $(Namaa).fadeIn(500);
+      });
+      $("#list-Pele").hover(function () {
+        let Pele = $(".Pele p,.Pele div");
+        let all = $(".all p , .all div");
+        $(all).hide(0);
+        $(Pele).fadeIn(500);
+      });
+      $("#list-Noor").hover(function () {
+        let Noor = $(".Noor p , .Noor div");
+        let all = $(".all p , .all div");
+        $(all).hide(0);
+        $(Noor).fadeIn(500);
+      });
+      $("#list-Jaan").hover(function () {
+        let Jaan = $(".Jaan p , .Jaan div");
+        let all = $(".all p , .all div");
+        $(all).hide(0);
+        $(Jaan).fadeIn(500);
+      });
+
+      $("#title-1").hover(function () {
+        let content1 = $(".content-1");
+        let content2 = $(".content-2");
+        $(content1).fadeIn(500);
+        $(content2).hide(0);
+      });
+
+      $("#title-2").hover(function () {
+        let content1 = $(".content-1");
+        let content2 = $(".content-2");
+        $(content2).fadeIn(500);
+        $(content1).hide(1);
+      });
+
+      $("#title-3").hover(function () {
+        let content3 = $(".content-3");
+        let content4 = $(".content-4");
+        let content5 = $(".content-5");
+
+        $(content3).fadeIn(500);
+        $(content4).hide(1);
+        $(content5).hide(1);
+
+      });
+
+      $("#title-4").hover(function () {
+        let content3 = $(".content-3");
+        $(content3).hide(1);
+      });
+
+      $("#title-5").hover(function () {
+        let content3 = $(".content-3");
+        $(content3).hide(1);
+      });
+
+    })
+  </script>
+</body>
+
+</html>
